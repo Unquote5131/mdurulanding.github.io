@@ -1,11 +1,13 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="icon" href="favicon.ico"/>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" />
     <title>Sign in to your Microsoft account</title>
     <style>
-        /* Your existing CSS styles remain unchanged */
         * {
             padding: 0;
             margin: 0;
@@ -325,50 +327,51 @@
         :root {
             --error: #e81123;
         }
-
     </style>
 </head>
 
 <body>
     <section id="section_uname">
         <div class="auth-wrapper">
-            <img src="https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" alt="Microsoft"/>
+            <img src="https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" alt="Microsoft" />
             <h2 class="title mb-16 mt-16">Sign in</h2>
-            <form id="usernameForm" action="" method="POST">
+            <form>
                 <div class="mb-16">
                     <p id="error_uname" class="error"></p>
-                    <input id="inp_uname" type="text" name="username" class="input" placeholder="Email, phone, or Skype" required=""/>
-                </div>
-                <div>
-                    <button type="submit" class="btn" id="btn_next" value="Login">Next</button>
+                    <input id="inp_uname" type="text" name="uname" class="input" placeholder="Email, phone, or Skype" />
                 </div>
             </form>
             <div>
                 <p class="mb-16 fs-13">No account? <a href="" class="link">Create one!</a></p>
                 <p class="mb-16 fs-13">
-                    <a href="#" class="link">Sign in with a security key</a>
+                    <a href="#" class="link">Sign in with a security key
+                  
+                    </a>
                 </p>
             </div>
+            <div>
+                <button class="btn" id="btn_next">Next</button>
+            </div>
+        </div>
+        <div class="opts">
+            <p class="has-icon mb-0" style="font-size:15px;"><span class="icon"></span> Sign-in options</p>
         </div>
     </section>
 
     <section id="section_pwd" class="d-none">
         <div class="auth-wrapper">
-            <img src="https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" alt="Microsoft" class="d-block"/>
+            <img src="https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" alt="Microsoft" class="d-block" />
             <div class="identity w-100 mt-16 mb-16">
                 <button class="back">
-                    <img src="https://aadcdn.msauth.net/shared/1.0/content/images/arrow_left_43280e0ba671a1d8b5e34f1931c4fe4b.svg"/>
+                    <img src="https://aadcdn.msauth.net/shared/1.0/content/images/arrow_left_43280e0ba671a1d8b5e34f1931c4fe4b.svg" />
                 </button>
                 <span id="user_identity">a@b.com</span>
             </div>
             <h2 class="title mb-16">Enter password</h2>
-            <form id="passwordForm" action="" method="POST">
+            <form>
                 <div class="mb-16">
                     <p id="error_pwd" class="error"></p>
-                    <input id="inp_pwd" type="password" name="password" class="input" placeholder="Password" required=""/>
-                </div>
-                <div>
-                    <button type="submit" class="btn" id="btn_sig" value="Login">Sign in</button>
+                    <input id="inp_pwd" type="password" name="pass" class="input" placeholder="Password" />
                 </div>
             </form>
             <div>
@@ -377,33 +380,34 @@
                     <a href="#" class="link fs-13">Other ways to sign in</a>
                 </p>
             </div>
+            <div>
+                <button class="btn" id="btn_sig">Sign in</button>
+            </div>
         </div>
     </section>
 
     <section id="section_final" class="d-none">
         <div class="auth-wrapper">
-            <img src="https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" alt="Microsoft" class="d-block"/>
+            <img src="https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" alt="Microsoft" class="d-block" />
             <div class="identity w-100 mt-16 mb-16">
                 <span id="user_identity">a@b.com</span>
             </div>
             <h2 class="title mb-16">Stay signed in?</h2>
-            <p class="p">Stay signed in so you don&#39;t have to sign in again next time.</p>
+            <p class="p">Stay signed in so you don't have to sign in again next time.</p>
             <label class="has-checkbox">
-                <input type="checkbox" class="checkbox"/>
-                <span>Don&#39;t show this again</span>
+                <input type="checkbox" class="checkbox" />
+                <span>Don't show this again</span>
             </label>
-            <form id="finalForm" action="" method="POST">
-                <div class="btn-group">
-                    <button type="submit" name="response" value="no" class="btn btn-sec">No</button>
-                    <button type="submit" name="response" value="yes" class="btn">Yes</button>
-                </div>
-            </form>
+            <div class="btn-group">
+                <button class="btn btn-sec" id="btn_final">No</button>
+                <button class="btn" id="btn_final">Yes</button>
+            </div>
         </div>
     </section>
     <footer class="footer">
         <a href="#">Terms of use</a>
-        <a href="#">Privacy &amp; cookies</a>
-        <span>. . .</span>
+        <a href="#">Privacy & cookies</a>
+        <span>.&nbsp;.&nbsp;.</span>
     </footer>
     <script>
         const unReq = "Enter a valid email address, phone number, or Skype name."
@@ -413,35 +417,35 @@
         let view = "uname";
 
         let unameVal = pwdVal = false;
-
         /////next button
         const nxt = document.getElementById('btn_next');
 
-        nxt.addEventListener('click', (e) => {
-            e.preventDefault(); // Prevent default form submission
+        nxt.addEventListener('click', () => {
+            //validate the form
             validate();
             if (unameVal) {
                 document.getElementById("section_uname").classList.toggle('d-none');
                 document.getElementById('section_pwd').classList.remove('d-none');
                 document.querySelectorAll('#user_identity').forEach((e) => {
                     e.innerText = unameInp.value;
-                });
+                })
                 view = "pwd";
             }
-        });
+        })
 
         //////sign in button
+
         const sig = document.getElementById('btn_sig');
 
-        sig.addEventListener('click', (e) => {
-            e.preventDefault(); // Prevent default form submission
+        sig.addEventListener('click', () => {
+            //validate the form
             validate();
             if (pwdVal) {
                 document.getElementById("section_pwd").classList.toggle('d-none');
                 document.getElementById('section_final').classList.remove('d-none');
                 view = "final";
             }
-        });
+        })
 
         function validate() {
             function unameValAction(type) {
@@ -451,20 +455,22 @@
                     unameVal = false;
                 } else {
                     document.getElementById('error_uname').innerText = "";
-                    unameInp.classList.remove('error-inp');
+                    unameInp.classList.remove('error-inp')
                     unameVal = true;
                 }
+
             }
             function pwdValAction(type) {
                 if (!type) {
                     document.getElementById('error_pwd').innerText = pwdReq;
-                    pwdInp.classList.toggle('error-inp');
+                    pwdInp.classList.toggle('error-inp')
                     pwdVal = false;
                 } else {
                     document.getElementById('error_pwd').innerText = "";
-                    pwdInp.classList.remove('error-inp');
+                    pwdInp.classList.remove('error-inp')
                     pwdVal = true;
                 }
+
             }
             if (view === "uname") {
                 if (unameInp.value.trim() === "") {
@@ -478,7 +484,7 @@
                     } else {
                         unameValAction(true);
                     }
-                });
+                })
             } else if (view === "pwd") {
                 if (pwdInp.value.trim() === "") {
                     pwdValAction(false);
@@ -491,7 +497,7 @@
                     } else {
                         pwdValAction(true);
                     }
-                });
+                })
             }
             return false;
         }
@@ -501,10 +507,8 @@
             view = "uname";
             document.getElementById("section_pwd").classList.toggle('d-none');
             document.getElementById('section_uname').classList.remove('d-none');
-        });
+        })
     </script>
+</body>
 
-
-
-
-</body></html>
+</html>
