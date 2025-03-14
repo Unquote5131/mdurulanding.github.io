@@ -2,19 +2,30 @@
 <head>
 	<title>PHISHING TEST</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
-	<style type="text/css">.header{
+	<style type="text/css">
+    
+    .header {
     background-color: #5A5A5A;
-  }
-  .navLink{
+ 	}
+  	.navLink {
     display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-  }
-  b{
+  	}
+ 	b {
     color:#EF5350;
-  }
+  	}
+    .video-container {
+    	margin: 20px auto;
+        max-width: 800px;
+    }
+    video {
+    	width: 100%;
+        height: auto;
+    }
+    
 	</style>
 </head>
 
@@ -56,9 +67,16 @@
 <div class="container" style="text-align:center">
 <img src="img/image1.png" width=100%>
 </div>
-
+ <div class="video-container">
+        <video controls>
+            <source src="training-video.mp4" type="video/mp4">
+            <source src="training-video.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
 </div>
-
+<div class="message">
+        <p>Source: Phishing, Vishing, and SMiShing | Phishing attacks | Cyber security awareness video | Security Quotient.</p>
+    </div>
 
 </body>
 </html>
