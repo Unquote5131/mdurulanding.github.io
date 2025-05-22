@@ -1,82 +1,312 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>PHISHING TEST</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
-	<style type="text/css">
-    
-    .header {
-    background-color: #5A5A5A;
- 	}
-  	.navLink {
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-  	}
- 	b {
-    color:#EF5350;
-  	}
-	hr.solid{
-		border-top: 3px solid #F5F5F5;
-	}
-   
-	</style>
+  <title>Phishing Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0"></script>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    h2 {
+      color: #003366;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    p {
+      color: #336699;
+      font-size: 15px;
+    }
+
+    .navbar {
+      background-color: #eff2f9;
+    }
+
+    .navbar-brand {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .sectionone {
+      background-color: #eff2f9;
+    }
+
+    .sectiontwo {
+      background-color: #f2f9ef;
+    }
+
+    .card-tip {
+      position: relative;
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .card-tip:hover {
+      box-shadow: 0 8px 16px rgba(0, 123, 255, 0.5);
+    }
+
+    .card-tip .step-number {
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      font-size: 45px;
+      font-weight: 700;
+      color: #007bff;
+      opacity: 0.1;
+    }
+
+    .icon-circle {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background-color: #dbe7ee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+    }
+
+    .phishing-image {
+      border-radius: 20px;
+      max-width: 100%;
+      height: auto;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .phishing-image:hover {
+      box-shadow: 0 8px 16px rgba(0, 123, 255, 0.5);
+    }
+
+    .video-section {
+      padding: 110px 0 130px;
+      background: linear-gradient(to right, rgba(250, 231, 231, 1), rgba(212, 239, 245, 1));
+    }
+
+    .popup-btn {
+      width: 140px;
+      height: 143px;
+      background-color: white;
+      border-radius: 50%;
+      font-size: 60px;
+      color: #007bff;
+      border: none;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s;
+    }
+
+    .popup-btn::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -10px;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      width: 160px;
+      height: 160px;
+      border-radius: 100%;
+      background-color: #98c1d9;
+      z-index: -1;
+      animation: ripple 2s infinite linear;
+    }
+
+    @keyframes ripple {
+      0% { transform: scale(1); opacity: 1; }
+      100% { transform: scale(1.5); opacity: 0; }
+    }
+
+    iframe {
+      width: 100%;
+      height: 1000px;
+      border: none;
+      border-radius: 15px;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      background-color: #f2f2f2;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
 </head>
 
 <body>
-<div class="header" style="text-align:left;">
-<div class="navLink">
-<h3 style="margin:0;"><b>Phishing Test</b></h3>
-</div>
-</div>
 
-<div class="container" style="text-align:center">
-<div class="jumbotron">
-<h2>You clicked on a simulated phishing test.</h2>
-<h3>Here are some tips to help you stay safer in the future</h3>
-</div>
+  <nav class="navbar py-3">
+    <div class="container d-flex justify-content-center">
+      <a class="navbar-brand text-danger"><span style='font-size:25px;'>&#9888;</span> Security Alert</a>
+    </div>
+  </nav>
 
-<div class="row">
+  <div class="sectionone">
+    <div class="container py-5">
+      <h2 class="fw-bold text-center mb-3 display-3">
+        You Clicked on a Simulated <span style="color:#50bfef">Phishing Test</span>
+      </h2>
+      <p class="text-center" style="font-size: 20px;">Here are some tips to help you stay safer in the future:</p>
 
-<div class="col-xs-4 col-sm-4 col-lg-4">
-<h1>Tip: #1</h1>
-<h2>Verify the Sender</h2>
-<p>Check the sender's email address carefully. Contact the organisation directly if unsure.</p>
-</div>
+      <div class="row text-center mt-5">
+      
+        <div class="col-md-4 mb-4">
+          <div class="card-tip text-start">
+            <div class="step-number">01</div>
+            <div class="d-flex align-items-center mb-2">
+              <div class="icon-circle"><i class="fas fa-envelope text-info"></i></div>
+              <h5 class="mb-0 fw-bold">Verify the Sender</h5>
+            </div>
+            <p class="mt-2">Check the sender's email address carefully. Contact the organization directly if unsure.</p>
+          </div>
+        </div>
 
-<div class="col-xs-4 col-sm-4 col-lg-4">
-<h1>Tip: #2</h1>
-<h2>Cautious with Links</h2>
-<p>Hover over links to see the actual URL. Avoid clicking on suspicious links.</p>
-</div>
+        <div class="col-md-4 mb-4">
+          <div class="card-tip text-start">
+            <div class="step-number">02</div>
+            <div class="d-flex align-items-center mb-2">
+              <div class="icon-circle"><i class="fas fa-link text-info"></i></div>
+              <h5 class="mb-0 fw-bold">Cautious with Links</h5>
+            </div>
+            <p class="mt-2">Hover over links to see the actual URL. Avoid clicking on suspicious links.</p>
+          </div>
+        </div>
 
-<div class="col-xs-4 col-sm-4 col-lg-4">
-<h1>Tip: #3</h1>
-<h2>Watch for Red Flags</h2>
-<p>Be wary of urgent requests for personal information. Verify any such requests directly with the organisation.</p>
-</div>
+        <div class="col-md-4 mb-4">
+          <div class="card-tip text-start">
+            <div class="step-number">03</div>
+            <div class="d-flex align-items-center mb-2">
+              <div class="icon-circle"><i class="fas fa-exclamation-circle text-info"></i></div>
+              <h5 class="mb-0 fw-bold">Watch for Red Flags</h5>
+            </div>
+            <p class="mt-2">Be wary of urgent requests for personal information. Verify any such requests directly with the organisation.</p>
+          </div>
+        </div>
+      </div>
 
-</div>
+      <div class="row align-items-center mt-5">
+        <div class="col-lg-6 mb-4">
+          <canvas id="incidentChart" style="max-width: 600px;"></canvas>
+          <p class="text-center fw-bold mt-3">Phishing remains one of the most common and successful attack vectors for cybercriminals</p>
+        </div>
+        <div class="col-lg-6 px-lg-5 text-center text-lg-start">
+          <h2 class="fw-bold">Phishing Incidents Reported by Month in Q3 and Q4 2024</h2>
+          <p><em>– Source: CyberSecurity Malaysia, "SR-028.122024/SR-029.022025: MyCERT Cyber Incident Quarterly Summary Reports (Q3/Q4 2024)."</em></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="container" style="text-align:center">
-<hr class="solid">
-<img src="img/image1.png" width=100%>
-<hr class="solid">
-</div>
+  <div class="sectiontwo">
+    <div class="container py-5 text-center">
+      <h2>Security Training</h2>
+      <p class="lead">Identifying Subtle and Sophisticated Threats</p>
+      <img class="phishing-image my-4" src="img/image1.png" alt="Phishing Example">
+    </div>
+  </div>
 
-<div class="col-sm-4">
-<h1>ONE CLICK COULD COST THE COMPANY<br>
-<small>Learn how to spot phishing emails before it's too late.</small></1>
-</div>
-	
-<div class="col-sm-8">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/o0btqyGWIQw?si=G2DJl0SOli_RTerr" allowfullscreen></iframe>	  
-</div>
-</div>
+  <div class="video-section text-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 mb-3">
+          <h2 class="fw-bold">One Click Could Cost the Company</h2>
+          <p class="lead">Learn how to spot phishing emails before it's too late</p>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <button class="popup-btn" data-bs-toggle="modal" data-bs-target="#videoModal">
+            <i class="fa fa-play"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-</div>
+  <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bg-dark">
+        <div class="modal-header border-0">
+          <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-0">
+          <div class="ratio ratio-16x9">
+            <iframe id="videoFrame" src="" allowfullscreen allow="autoplay"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-5 text-center">
+    <h2>Quick Quiz!</h2>
+    <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=JXSSZcrlIE-hwVVoEVnffYUSkQkz6H9Hkx2NRuTDcQxUNjM5RlpKNTQ5MDZMNkJVNU0yM0JTNFY1US4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+  </div>
+
+  <footer>
+    Thank you for participating. Stay safe online!
+  </footer>
+
+  <script>
+    const ctx = document.getElementById('incidentChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['July', 'August', 'September', 'October', 'November', 'December'],
+        datasets: [{
+          label: 'Number of Incidents',
+          data: [266, 294, 254, 330, 235, 245],
+          backgroundColor: [
+            'rgba(255, 99, 132, 0.5)', 'rgba(54, 162, 235, 0.5)', 
+            'rgba(255, 206, 86, 0.5)', 'rgba(75, 192, 192, 0.5)', 
+            'rgba(153, 102, 255, 0.5)', 'rgba(255, 159, 64, 0.5)'
+          ],
+          borderColor: [
+            'rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 
+            'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)', 
+            'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)'
+          ],
+          borderWidth: 2
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { display: false } },
+        scales: { y: { beginAtZero: true } }
+      }
+    });
+  </script>
+ 
+  <script>
+    const videoModal = document.getElementById('videoModal');
+    const videoFrame = document.getElementById('videoFrame');
+    const videoURL = "https://www.youtube.com/embed/o0btqyGWIQw?autoplay=1";
+
+    videoModal.addEventListener('show.bs.modal', () => {
+      videoFrame.src = videoURL;
+    });
+
+    videoModal.addEventListener('hidden.bs.modal', () => {
+      videoFrame.src = "";
+    });
+  </script>
 
 </body>
 </html>
