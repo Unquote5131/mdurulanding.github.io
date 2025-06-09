@@ -8,6 +8,9 @@ rednosehorse.com #2025042585000491
 blessedwirror.org #2025042585000491
 
 
+# DNS Request with a Suspicious Domain
+www.google.com.backend-aplha.com #2025052985001311
+
 # Unusual Executable File Download
 
 tprtransparentaudio.com #2025042785000451
