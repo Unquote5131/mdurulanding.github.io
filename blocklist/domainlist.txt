@@ -1,5 +1,4 @@
 #DGA
-
 kqaxyiehmfnfgwl.com #2025042085000811
 908df012d9bb72e6d26b41054588d758.com #2025042685000873
 e89d45b16370ee7e43daeaf6ce8d9547.com #2025042685000873
@@ -8,14 +7,13 @@ rednosehorse.com #2025042585000491
 blessedwirror.org #2025042585000491
 
 
-# DNS Request with a Suspicious Domain
+#DNS Request with a Suspicious Domain
 www.google.com.backend-aplha.com #2025052985001311
 
-# Unusual Executable File Download
-
+#Unusual Executable File Download
 tprtransparentaudio.com #2025042785000451
 
-# Emergence Cyber Attack By UNC3886 In Singapore
+#Updated 21/7/2025 (Emergence Cyber Attack By UNC3886 In Singapore)
 cyberponke.github.io
 api.d-n-s.name
 areekaweb.com
