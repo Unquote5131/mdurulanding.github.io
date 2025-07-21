@@ -10,7 +10,6 @@ kqaxyiehmfnfgwl.com
 rednosehorse.com
 blessedwirror.org
 
-
 #DNS Request with a Suspicious Domain
 #2025052985001311
 www.google.com.backend-aplha.com
