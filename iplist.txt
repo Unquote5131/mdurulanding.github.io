@@ -26,6 +26,7 @@
 
 # DGA Domain Resolution
 104.26.4.222 #2025060385001705 https://c.e68eaebc30768a673848927c2b8c8e38c38fd42312e367bca04fc622.com/
+192.41.162.30 #202509231000386658 mkto-nld1050031.com
 
 #Unusual Interactive Traffic from an External Endpoint
 150.136.42.23 #202507301000262520
