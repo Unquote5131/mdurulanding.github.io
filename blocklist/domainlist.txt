@@ -27,6 +27,8 @@ api.cockatoocloud.com #202507301000262520
 
 #Suspicious domain
 clj-ebooks.com #202510081000420903
+blahlivedsnowdrop.com #202511081000486616
+bvtpk.com #202511081000486616
 
 #Updated 21/7/2025 (Emergence Cyber Attack By UNC3886 In Singapore)
 cyberponke.github.io
@@ -42,5 +44,6 @@ miltonhouse.nl
 secure-cama.com
 symantke.com
 entraide-internationale.fr
+
 
 
