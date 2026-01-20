@@ -54,6 +54,7 @@ entraide-internationale.fr
 
 #C&C
 chhhn.com #202512191000566198
+cityuvirtual.com #202601171000622925
 
 #Shodan Scanner
 shodan.io
@@ -136,3 +137,4 @@ scanner02.project25499.com
 scanner03.project25499.com
 scanner04.project25499.com
 scanner05.project25499.com
+
