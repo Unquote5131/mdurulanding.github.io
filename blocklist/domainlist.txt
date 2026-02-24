@@ -23,6 +23,7 @@ zdoiodhtqahjizqq.net #202510031000410190
 #DNS Request with a Suspicious Domain
 #2025052985001311
 www.google.com.backend-aplha.com
+www.yourselfirst.com #202601231000635229
 
 #Unusual Executable File Download
 #2025042785000451
@@ -139,6 +140,7 @@ scanner02.project25499.com
 scanner03.project25499.com
 scanner04.project25499.com
 scanner05.project25499.com
+
 
 
 
