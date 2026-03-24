@@ -1,6 +1,9 @@
 # C&C
 # It can be used to firewall these IP addresses
 
+# Port Sweep
+147.182.241.81 #202603231000753872
+
 # Malicious
 43.128.111.202
 154.9.250.183 #202510121000431094
