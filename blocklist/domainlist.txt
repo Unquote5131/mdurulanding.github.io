@@ -1,46 +1,38 @@
 #DGA
-zdoiodhtqahjizqq.net #202603121000732272
-c.0dee724991ddef2cb61d3cbc98952dbd9d54c8b34c403cf3fc75f0fb.com #202601311000651361
-c.f8824e712f4b4a9114f13c173ccf90987716b7612c5d93eeaa883fed.com #202601311000651361
-#202512301000587228
+zdoiodhtqahjizqq.net
+c.0dee724991ddef2cb61d3cbc98952dbd9d54c8b34c403cf3fc75f0fb.com
+c.f8824e712f4b4a9114f13c173ccf90987716b7612c5d93eeaa883fed.com
 96nqqugq67pox5k9mmpvmz1ex91hh.cfd
 ru5ppovxbk7jq583uh92.rest
 96nqqugq67pox5k9mmpvmz1ex91hh.cfd
-#2025042085000811
 kqaxyiehmfnfgwl.com
-#2025042685000873
 908df012d9bb72e6d26b41054588d758.com
 e89d45b16370ee7e43daeaf6ce8d9547.com
-#2025042085000811
 kqaxyiehmfnfgwl.com
-#2025042585000491
 rednosehorse.com
 blessedwirror.org
-#21/7/2025 (202507211000238213)
 73ed366d3137ec936bd60b1184467776.com
-mkto-nld1050031.com #202509231000386658 6/10/2025
-zdoiodhtqahjizqq.net #202510031000410190
+mkto-nld1050031.com
+zdoiodhtqahjizqq.ne
 
 #DNS Request with a Suspicious Domain
-#2025052985001311
 www.google.com.backend-aplha.com
-www.yourselfirst.com #202601231000635229
-sitenew2023.com #202604081000788433
+www.yourselfirst.com
+sitenew2023.com
 
 #Unusual Executable File Download
-#2025042785000451
 tprtransparentaudio.com
 
 #Unusual Interactive Traffic from an External Endpoint
-api.cockatoocloud.com #202507301000262520
+api.cockatoocloud.com
 
 #Suspicious domain
-www.maroonbellsmorris.org #202511061000481538
-hwco.com #202511071000484731
-clj-ebooks.com #202510081000420903
-blahlivedsnowdrop.com #202511081000486616
-bvtpk.com #202511081000486616
-chhhn.com #202512081000542036
+www.maroonbellsmorris.org
+hwco.com
+clj-ebooks.com
+blahlivedsnowdrop.com
+bvtpk.com
+chhhn.com
 
 #Updated 21/7/2025 (Emergence Cyber Attack By UNC3886 In Singapore)
 cyberponke.github.io
@@ -58,8 +50,8 @@ symantke.com
 entraide-internationale.fr
 
 #C&C
-chhhn.com #202512191000566198
-cityuvirtual.com #202601171000622925
+chhhn.com
+cityuvirtual.com
 
 #Shodan Scanner
 shodan.io
