@@ -63,6 +63,9 @@ entraide-internationale.fr
 chhhn.com
 cityuvirtual.com
 
+#Suspicious
+takeinternet.com
+
 #Shodan Scanner
 shodan.io
 census1.shodan.io
