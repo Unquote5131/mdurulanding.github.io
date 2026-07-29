@@ -37,6 +37,10 @@ tprtransparentaudio.com
 #Unusual Interactive Traffic from an External Endpoint
 api.cockatoocloud.com
 
+#cryptosht
+pool.hashvault.pro
+xmrig.moneroocean.stream
+
 #Suspicious domain
 www.maroonbellsmorris.org
 hwco.com
