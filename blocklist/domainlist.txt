@@ -44,6 +44,7 @@ pool.hashvault.pro
 xmrig.moneroocean.stream
 
 #Suspicious domain
+lunastream.com.cv
 www.maroonbellsmorris.org
 hwco.com
 clj-ebooks.com
