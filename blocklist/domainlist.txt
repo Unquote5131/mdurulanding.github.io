@@ -32,6 +32,7 @@ bradtte.lol
 network-check.sybo.net
 www.traditionalnativegames.org
 auth-code-verif.beer
+portmap.io
 
 #Unusual Executable File Download
 tprtransparentaudio.com
