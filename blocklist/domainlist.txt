@@ -33,6 +33,7 @@ network-check.sybo.net
 www.traditionalnativegames.org
 auth-code-verif.beer
 portmap.io
+jahit.my
 
 #Unusual Executable File Download
 tprtransparentaudio.com
