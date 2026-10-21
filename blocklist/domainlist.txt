@@ -47,6 +47,7 @@ pool.hashvault.pro
 xmrig.moneroocean.stream
 
 #Suspicious domain
+humeysha.com
 dcbbwymp1bhlf.cloudfront.net
 lunastream.com.cv
 www.maroonbellsmorris.org
