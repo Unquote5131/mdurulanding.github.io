@@ -48,6 +48,7 @@ pool.hashvault.pro
 xmrig.moneroocean.stream
 
 #Suspicious domain
+zingpingbees.com
 lookup.gpoppa.com
 relay.chi03.mesh.video
 hasilgov-my.my.id
