@@ -47,6 +47,8 @@ pool.hashvault.pro
 xmrig.moneroocean.stream
 
 #Suspicious domain
+lookup.gpoppa.com
+relay.chi03.mesh.video
 hasilgov-my.my.id
 humeysha.com
 dcbbwymp1bhlf.cloudfront.net
