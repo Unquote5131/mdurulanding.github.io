@@ -50,6 +50,7 @@ pool.hashvault.pro
 xmrig.moneroocean.stream
 
 #Suspicious domain
+dvwztnx4ab3fl.cloudfront.net
 zingpingbees.com
 lookup.gpoppa.com
 relay.chi03.mesh.video
